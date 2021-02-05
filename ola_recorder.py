@@ -28,9 +28,9 @@ class OlaRecorder:
     def kill_play(self):
         if self.play_process is not None:
             self.play_process.kill()
-        self.play_process = None
+            self.play_process = None
     
     def kill_record(self):
         if self.play_process is not None:
             self.record_process.kill()
-        self.record_process = None
+            self.record_process = None
